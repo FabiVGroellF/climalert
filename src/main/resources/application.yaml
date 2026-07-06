@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: climalert
+
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: "2794b81bdfde51"
+    password: "ec0be35eb497cc"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+weather:
+  api:
+    base-url: https://api.weatherapi.com/v1
+    key: caaa0002ce14493792331336260607
+    city: "-34.6037,-58.3816"
+
